@@ -26,3 +26,6 @@ function womensAge(n) {
 }
  
 }
+console.log(womensAge(32))
+console.log(womensAge(39))
+console.log(womensAge(98))
