@@ -10,3 +10,6 @@ function createSecretHolder(secret){
     }
 }
 const obj = createSecretHolder(5);
+obj.getSecret() // ➜ 5
+obj.setSecret(2);
+obj.getSecret() // ➜ 2
