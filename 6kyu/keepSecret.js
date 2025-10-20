@@ -9,3 +9,4 @@ function createSecretHolder(secret){
         }
     }
 }
+const obj = createSecretHolder(5);
