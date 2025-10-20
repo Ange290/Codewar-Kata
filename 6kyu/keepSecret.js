@@ -1,8 +1,8 @@
 function createSecretHolder(secret){
     let b = secret;
     return {
-        getSecret(){
-            
+        setSecret(newSecret = 5){
+           b = newSecret
         }
     }
 }
