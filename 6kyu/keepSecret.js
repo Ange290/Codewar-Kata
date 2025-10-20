@@ -5,7 +5,7 @@ function createSecretHolder(secret){
            b = newSecret
         },
         getSecret(){
-            
+          return b  
         }
     }
 }
