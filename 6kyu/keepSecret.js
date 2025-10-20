@@ -3,6 +3,9 @@ function createSecretHolder(secret){
     return {
         setSecret(newSecret = 5){
            b = newSecret
+        },
+        getSecret(){
+            
         }
     }
 }
