@@ -1,3 +1,3 @@
-function isSphere(){
-    
+function isSphere(coords,radius){
+
 }
