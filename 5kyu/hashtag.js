@@ -12,3 +12,7 @@ function generateHashtag (str) {
     }
      }
 }
+      let hashtag = "#" +res.join('');
+    if(hashtag.length > 140)return false;
+    return hashtag
+}
