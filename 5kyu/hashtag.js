@@ -16,3 +16,7 @@ function generateHashtag (str) {
     if(hashtag.length > 140)return false;
     return hashtag
 }
+console.log(generateHashtag("")); // false
+console.log(generateHashtag(" ".repeat(200)));
+console.log(generateHashtag("Do We have A Hashtag")); // "#DoWeHaveAHashtag"
+console.log(generateHashtag("Codewars Is Nice")); // "#CodewarsIsNice"
