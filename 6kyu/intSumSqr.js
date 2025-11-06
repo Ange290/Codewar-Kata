@@ -6,4 +6,5 @@ const intSumSq = (n,m) => {
       result.push(num)
     }
      }
+     return result.length > 0 ? result : "No result";
 }
