@@ -1,0 +1,3 @@
+const intSumSq = (n,m) => { 
+    
+}
