@@ -8,3 +8,8 @@ const intSumSq = (n,m) => {
      }
      return result.length > 0 ? result : "No result";
 }
+console.log(intSumSq(156,16));
+console.log(intSumSq(100,1));
+console.log(intSumSq(100,10));
+console.log(intSumSq(100,100));
+
