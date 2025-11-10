@@ -8,4 +8,11 @@ if (n.length < 3) return undefined;
       return i; 
     }
   }
+   return undefined; 
 }
+// Example usage:
+console.log(midpointSum([1, 2, 3, 4, 5]));
+console.log(midpointSum([1, 2, 3, 4, 5, 6]));
+console.log(midpointSum([1, 2, 3, 4, 5, 6, 7]));
+console.log(midpointSum([1, 2, 3, 4, 5, 6, 7, 8]));
+console.log(midpointSum([1, 2, 3]));
