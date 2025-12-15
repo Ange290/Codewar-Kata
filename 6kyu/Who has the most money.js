@@ -14,3 +14,20 @@ class Student {
     const phil = new Student("Phil", 0, 2, 1);
     const cam = new Student("Cameron", 2, 2, 0);
     const geoff = new Student("Geoff", 0, 3, 0);
+
+    
+function mostMoney(students) {
+    const totals = students.map(s =>({
+      name: s.name,
+      total: (s.fives * 5) + (s.tens * 10) + (s.twenties *20)
+    }));
+    const max = Math.max(...totals.map(t=> t.total));
+    const winner = totals.filter(t => t.total === max);
+    if(students.length === 1){
+      return winner[0].name;
+    }
+   else if(winner.length === students.length){
+      return "all";
+    } 
+ return winner[0].name;
+  }
