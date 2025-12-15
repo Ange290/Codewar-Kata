@@ -31,3 +31,8 @@ function mostMoney(students) {
     } 
  return winner[0].name;
   }
+
+    console.log(mostMoney([andy, stephen, eric, david, phil]));
+  console.log(mostMoney([andy]));
+  console.log(mostMoney([david, geoff]));
+  console.log(mostMoney([david, cam, geoff]));
