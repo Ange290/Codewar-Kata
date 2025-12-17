@@ -19,3 +19,7 @@ return sum.toLocaleString("en-US",{
     maximumFractionDigits:2
 })
 }
+
+console.log(sumUpNumbers(["1,234.56", "2,345.67", "3.456,78", "4.567,89"])); // "11,604.90"
+console.log(sumUpNumbers(["12,345.67", "23.456,78", "34,567.89"])); // "70,370.34"
+console.log(sumUpNumbers(["1.234,56", "2.345,67", "3,456.78", "4,567.89"])); // "11,604.90"
