@@ -10,6 +10,12 @@ for(let x =0; x< arr.length; x++){
       
    sum += Number(value.replace(/,/g,''));    
 } 
+else if(uk.test(value)){
+   sum += Number(value.replace(/\./g,'').replace(',','.'));
 }
-
+}
+return sum.toLocaleString("en-US",{
+    minimumFractionDigits:2,
+    maximumFractionDigits:2
+})
 }
