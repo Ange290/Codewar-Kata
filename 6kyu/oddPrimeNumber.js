@@ -10,5 +10,9 @@ function oddPrimeNumber(n) {
       break;
    }
    
-}}
+}
+if(isPrime && i % 2 !== 0){
+     result.push(i)
+   }
+}
 }
