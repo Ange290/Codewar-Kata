@@ -15,4 +15,12 @@ if(isPrime && i % 2 !== 0){
      result.push(i)
    }
 }
+let leng = result.length;
+let near = result[result.length-1];
+
+
+final.push(leng);
+final.push(near)
+   
+   return final;
 }
