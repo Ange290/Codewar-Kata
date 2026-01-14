@@ -1,5 +1,5 @@
 function isValidWalk(walk) {
-  if(!walk.length === 10){
+  if(walk.length !== 10){
     return false
   }
  let grp = walk.reduce((acc,num)=>{
