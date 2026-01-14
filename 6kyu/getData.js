@@ -16,7 +16,7 @@ async function getData(url, times) {
 
     } catch (error) {
       retries++;
-      console.log(`Request failed. Retrying (${retries}/${times})...`);
+      console.log(`Request failed. Retrying ${retries}.`);
 
       if (retries === times) {
         console.log(`Failed after ${times} retries: ${error.message}`);
