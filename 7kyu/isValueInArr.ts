@@ -1,1 +1,1 @@
-const arrCheck = value => {}
+const arrCheck = (value: any) => {}
