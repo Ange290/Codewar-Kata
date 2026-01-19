@@ -5,4 +5,5 @@ const finalGrade = (exam: any, projects: any) => {
     if (projects < 0) {
         return "Invalid number of projects. It cannot be negative.";
     }
+    let result: number | string;
 };
