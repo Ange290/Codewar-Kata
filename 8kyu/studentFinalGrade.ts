@@ -15,4 +15,5 @@ const finalGrade = (exam: any, projects: any) => {
     } else {
         result = 0;
     }
+    return result;
 };
