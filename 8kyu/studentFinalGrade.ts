@@ -1,0 +1,3 @@
+const finalGrade = (exam, projects) => {
+
+};
