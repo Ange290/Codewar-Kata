@@ -17,3 +17,7 @@ const finalGrade = (exam: any, projects: any) => {
     }
     return result;
 };
+console.log(finalGrade(100, 12)); // 100
+console.log(finalGrade(85, 5)); // 90
+console.log(finalGrade(55, 3)); // 75
+console.log(finalGrade(50, 1));
