@@ -1,3 +1,3 @@
-const finalGrade = (exam, projects) => {
+const finalGrade = (exam: any, projects: any) => {
 
 };
