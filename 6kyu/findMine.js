@@ -1,6 +1,9 @@
 const findLocation =(field)=>{
    for(let count = 0; count <field.length; count++){
   for(let x =0; x< field.length; x++){
+       if(field[count][x] === 1){
+      return[count,x]
+    }
   }
    }
 }
