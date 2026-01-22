@@ -6,3 +6,7 @@ const arrCheck = (value: any) => {
     }
     return true;
 }
+console.log(arrCheck([[1], [2], [3]])); // true
+console.log(arrCheck([[1, 2], [3, 4], [5, 6]])); // true    
+console.log(arrCheck([1, 2, 3])); // false
+console.log(arrCheck([[1, 2], [3, 4], 5])); // false
