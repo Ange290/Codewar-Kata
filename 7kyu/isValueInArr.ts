@@ -4,4 +4,5 @@ const arrCheck = (value: any) => {
             return false;
         }
     }
+    return true;
 }
