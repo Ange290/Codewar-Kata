@@ -1,1 +1,1 @@
-const greet = function(name) {}
+const greet = function(name: any) {}
