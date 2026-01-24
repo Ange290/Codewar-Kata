@@ -1,3 +1,3 @@
-const removeEveryOther = (arr) => {
+const removeEveryOther = (arr: any[]) => {
     
 };
