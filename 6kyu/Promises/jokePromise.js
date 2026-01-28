@@ -1,6 +1,4 @@
-async function sayJoke(apiUrl, jokeId){
-
-        
+async function sayJoke(apiUrl, jokeId){        
    
   let response = await fetch(apiUrl);
  let res = await response.json();
