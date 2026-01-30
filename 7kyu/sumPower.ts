@@ -1,1 +1,1 @@
-const powers =(n)=> {}
+const powers =(n: any)=> {}
