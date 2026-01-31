@@ -5,5 +5,7 @@ const powers =(n: any)=> {
       if (n % 2 === 1) {
       result.push(2 ** power);
     }
+     n = Math.floor(n / 2);
+   
   }
 }
