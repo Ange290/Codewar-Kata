@@ -8,4 +8,5 @@ const powers =(n: any)=> {
      n = Math.floor(n / 2);
     power++;
   }
+  return result;
 }
