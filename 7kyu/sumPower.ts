@@ -6,6 +6,6 @@ const powers =(n: any)=> {
       result.push(2 ** power);
     }
      n = Math.floor(n / 2);
-   
+    power++;
   }
 }
