@@ -6,3 +6,6 @@ function sumOfDigits(n){
     }
     return sum
 }
+console.log(sumOfDigits(12));
+console.log(sumOfDigits(1234));
+console.log(sumOfDigits(928372));
