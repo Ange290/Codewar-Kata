@@ -10,3 +10,6 @@ const powers =(n: any)=> {
   }
   return result;
 }
+console.log(powers(10)); // [2, 8]
+console.log(powers(21));
+console.log(powers(31));
