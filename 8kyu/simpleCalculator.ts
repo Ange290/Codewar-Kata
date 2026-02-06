@@ -1,1 +1,1 @@
-const =  calculator =(a,b,sign)=>{}
+const =  calculator =(a:number,b:number,sign:string)=>{}
