@@ -14,4 +14,5 @@ if(operator.includes(sign)){
             return 'unknown value';
     }
 }
+return 'unknown value';
 }
