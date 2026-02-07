@@ -1,4 +1,12 @@
 const calculator =(a:number,b:number,sign:string)=>{
 let operator: string[] =['+','-','*','/']
-if(operator.includes(sign)){}
+if(operator.includes(sign)){
+    switch(sign){
+        case '+':
+            return a+b;
+        case '-':
+            return a-b;
+      
+    }
+}
 }
