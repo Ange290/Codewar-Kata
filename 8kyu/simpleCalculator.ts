@@ -16,3 +16,8 @@ if(operator.includes(sign)){
 }
 return 'unknown value';
 }
+console.log(calculator(1, 2, '+')); // 3
+console.log(calculator(1, 2, '-'));
+console.log(calculator(1, 2, '*'));
+console.log(calculator(1, 2, '/'));
+console.log(calculator(1, 2, '%')); // 'unknown value'
