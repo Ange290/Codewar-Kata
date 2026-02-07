@@ -6,7 +6,10 @@ if(operator.includes(sign)){
             return a+b;
         case '-':
             return a-b;
-      
+        case '*':
+            return a*b;
+        case '/':
+            return a/b;
     }
 }
 }
