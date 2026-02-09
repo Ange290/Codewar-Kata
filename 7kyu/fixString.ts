@@ -18,3 +18,6 @@ function changes (str:string): string{
     }
 }
 console.log(changes("SOLve"));
+console.log(changes("CODe"));
+console.log(changes("COde"));
+console.log(changes("Code"));
