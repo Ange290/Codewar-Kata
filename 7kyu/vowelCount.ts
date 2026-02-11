@@ -7,4 +7,8 @@ export class Kata {
         nn++;
       }
     }
+       return nn;
         } }
+        console.log(Kata.getCount('abracadabra'));
+        console.log(Kata.getCount('hello world'));
+        console.log(Kata.getCount('aeiou'));
