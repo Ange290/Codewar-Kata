@@ -1,1 +1,1 @@
-const sumDigits=(number)=> {}
+const sumDigits=(number: number)=> {}
