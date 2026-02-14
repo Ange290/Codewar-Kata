@@ -4,3 +4,6 @@ const sumDigits=(number: number)=> {
      sum= turnArry.reduce((a,b)=> a+b);
         return sum;
 }
+console.log(sumDigits(10)); // 1
+console.log(sumDigits(99));
+console.log(sumDigits(-32));
