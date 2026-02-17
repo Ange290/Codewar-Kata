@@ -1,0 +1,1 @@
+const shorterReverseLonger=(a, b) =>{}
