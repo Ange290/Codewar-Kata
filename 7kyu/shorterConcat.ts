@@ -1,1 +1,1 @@
-const shorterReverseLonger=(a, b) =>{}
+const shorterReverseLonger=(a:string, b:string) =>{}
