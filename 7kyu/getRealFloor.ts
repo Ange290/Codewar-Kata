@@ -7,3 +7,6 @@ if(n <= 13){
 }
 return n -2;
 }
+console.log(getRealFloor(12));
+console.log(getRealFloor(-4));
+console.log(getRealFloor(18));
