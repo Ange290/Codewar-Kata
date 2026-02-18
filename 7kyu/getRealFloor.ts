@@ -5,4 +5,5 @@ if(n <= 0){
 if(n <= 13){
   return n-1;  
 }
+return n -2;
 }
