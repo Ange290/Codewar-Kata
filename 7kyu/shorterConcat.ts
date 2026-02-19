@@ -1,5 +1,5 @@
 const shorterReverseLonger=(a:string, b:string) =>{
-      let ac = a.length;
-  let bc = b.length;
+      let ac:number = a.length;
+  let bc:number = b.length;
   let result;
 }
