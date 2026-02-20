@@ -7,4 +7,8 @@ const shorterReverseLonger=(a:string, b:string) =>{
     let am = a.split('').reverse().join('');
     result = `${b}${am}${b}`;
   }
+   else if (bc === ac) {
+    let am = a.split('').reverse().join('');
+    result = `${b}${am}${b}`;
+  }
 }
