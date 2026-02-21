@@ -17,3 +17,6 @@ const shorterReverseLonger=(a:string, b:string) =>{
   }
 return result;
 }
+console.log(shorterReverseLonger("first", "abcde")); // "abcdefirsttsrifabcde"
+console.log(shorterReverseLonger("hello", "bau"));
+console.log(shorterReverseLonger("abcde", "fghi"));
