@@ -15,5 +15,5 @@ const shorterReverseLonger=(a:string, b:string) =>{
     let bm = b.split('').reverse().join('');
     result = `${a}${bm}${a}`;
   }
-
+return result;
 }
