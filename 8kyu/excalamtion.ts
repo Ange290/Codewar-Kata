@@ -1,1 +1,4 @@
-const remove = (string: string) => {  }
+const remove = (string: string) => { 
+    while(string.endsWith('!')){
+}
+ }
