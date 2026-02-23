@@ -1,1 +1,1 @@
-const remove = (string) => {  }
+const remove = (string: string) => {  }
