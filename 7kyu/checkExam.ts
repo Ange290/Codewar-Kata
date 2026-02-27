@@ -1,1 +1,3 @@
-const checkExam = (array1, array2) => {}
+const checkExam = (array1: any, array2: any) => {
+    let sum = 0;
+}
