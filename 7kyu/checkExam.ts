@@ -7,4 +7,9 @@ const checkExam = (array1: any, array2: any) => {
    if(answer === "" || student === "") {
      sum += 0;//blank atleast in one element
     }
+      else if(answer === student){
+     sum += 4;//correct answer
+    
+}
+}
 }
