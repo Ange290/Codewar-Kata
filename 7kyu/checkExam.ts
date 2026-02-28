@@ -10,6 +10,8 @@ const checkExam = (array1: any, array2: any) => {
       else if(answer === student){
      sum += 4;//correct answer
     
-}
+  }else{
+     sum -= 1;//wrong answer
+  }
 }
 }
