@@ -6,4 +6,7 @@ let sums: number[] = [];
     sums.push(total);
     total -= ls[i];
   }
+  sums.push(0);
+
+  return sums;
 }
