@@ -16,3 +16,6 @@ const checkExam = (array1: any, array2: any) => {
 }
 return Math.max(sum,0);
 }
+console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]));
+console.log(checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]));
+console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]));
