@@ -14,4 +14,5 @@ const checkExam = (array1: any, array2: any) => {
      sum -= 1;//wrong answer
   }
 }
+return Math.max(sum,0);
 }
