@@ -1,7 +1,8 @@
 export function stalinSort(array: number[]): void {
     if(array.length === 0) return;
+    let lastIndex:number = array[0];
  for(let x =0; x < array.length;){
-    if(array[x] >= array[x + 1]){
+    if(array[x] >= lastIndex){
     
     }
  }
