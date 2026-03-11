@@ -5,6 +5,8 @@ export function stalinSort(array: number[]): void {
     if(array[x] >= currentIndex){
     currentIndex = array[0];
     x++;
+    }else{
+        array.splice(x,1);
     }
  }
 }
