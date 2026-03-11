@@ -1,9 +1,10 @@
 export function stalinSort(array: number[]): void {
     if(array.length === 0) return;
-    let lastIndex:number = array[0];
+    let currentIndex:number = array[0];
  for(let x =0; x < array.length;){
-    if(array[x] >= lastIndex){
-    
+    if(array[x] >= currentIndex){
+    currentIndex = array[0];
+    x++;
     }
  }
 }
