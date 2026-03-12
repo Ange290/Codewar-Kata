@@ -5,7 +5,9 @@ const replace = (s: string) => {
         if(vowel.includes(s[i])){
             result += '!';
         }
-       
+        else{
+            result += s[i];
+        }
     }
 
 }
