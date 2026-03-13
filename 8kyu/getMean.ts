@@ -5,4 +5,6 @@ export function getAverage(marks:number[]):number{
     sum += marks[x]
   }
   
+  let average : number = sum / marks.length
+  return Math.floor(average);
 }
