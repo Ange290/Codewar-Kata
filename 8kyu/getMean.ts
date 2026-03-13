@@ -8,3 +8,4 @@ export function getAverage(marks:number[]):number{
   let average : number = sum / marks.length
   return Math.floor(average);
 }
+console.log(getAverage([2,3,4,5,6]));
