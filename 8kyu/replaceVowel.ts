@@ -9,5 +9,5 @@ const replace = (s: string) => {
             result += s[i];
         }
     }
-
+return result;
 }
