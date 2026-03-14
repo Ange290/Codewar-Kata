@@ -11,3 +11,7 @@ const replace = (s: string) => {
     }
 return result;
 }
+console.log(replace('hello')); // 'h!ll!'
+console.log(replace('how are you today?')); // 'h!w !r! y!! t!d!y?
+console.log(replace('aeiou')); // '!!!!!'
+console.log(replace('ABCDE')); // '!BCD!'
