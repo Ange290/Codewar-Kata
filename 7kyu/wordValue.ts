@@ -8,7 +8,7 @@ export function wordValue(arr: string[]): number[] {
       }
     }
 
-  
+    return sum * (index + 1);
 
   });
 }
