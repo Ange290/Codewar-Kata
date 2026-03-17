@@ -12,3 +12,5 @@ export function wordValue(arr: string[]): number[] {
 
   });
 }
+console.log(wordValue(["codewars", "abc", "xyz"]));
+console.log(wordValue(["abc abc", "abc abc", "abc", "abc"]));
