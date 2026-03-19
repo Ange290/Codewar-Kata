@@ -6,6 +6,8 @@ export function findAverage(array: number[]): number {
 
   return Math.floor(sum/array.length);
 }
+console.log(findAverage([1,1,1]))
+console.log(findAverage([12,4,6,2,5]))
 
 
 
