@@ -1,5 +1,7 @@
 const findEvenIndex =(arr:number[])=>{
     let totalSum= arr.reduce((acc,num)=>acc+num,0);
      let leftSum =0;
-    for(let i=0; i<arr.length; i++){}
+    for(let i=0; i<arr.length; i++){
+        let rightSum = totalSum - leftSum - arr[i];
+    }
 }
