@@ -3,5 +3,8 @@ export function filter_list(l:Array<any>):Array<number> {
      let result:number[] =[];
     for(let a = 0; a < l.length; a++){
         if(typeof l[a] == 'number'){
-        }}
+          result.push(l[a])  
+        }
+    }
+  
 }
