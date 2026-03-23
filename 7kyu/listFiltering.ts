@@ -8,3 +8,5 @@ export function filter_list(l:Array<any>):Array<number> {
     }
     return result;
 }
+console.log(filter_list([1,2,'a','b']));
+console.log(filter_list([1,'a','b',0,15]))
