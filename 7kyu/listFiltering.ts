@@ -6,5 +6,5 @@ export function filter_list(l:Array<any>):Array<number> {
           result.push(l[a])  
         }
     }
-  
+    return result;
 }
