@@ -6,5 +6,8 @@ function validBraces(braces:string):boolean{
         '[': ']'
     };
      for(let char of braces){
+         if(pairs[char]){
+              stack.push(char);
+         }
      }
 }
