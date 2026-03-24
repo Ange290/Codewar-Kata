@@ -14,4 +14,5 @@ function validBraces(braces:string):boolean{
                 return false;
             }
      }
+         return stack.length === 0;
 }
