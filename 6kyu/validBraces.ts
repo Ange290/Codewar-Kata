@@ -10,5 +10,8 @@ function validBraces(braces:string):boolean{
               stack.push(char);
          }else{
               const last = stack.pop();
+               if(!last || pairs[last] !== char){
+                return false;
+            }
      }
 }
