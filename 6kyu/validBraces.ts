@@ -5,4 +5,6 @@ function validBraces(braces:string):boolean{
         '{': '}',
         '[': ']'
     };
+     for(let char of braces){
+     }
 }
