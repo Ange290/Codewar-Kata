@@ -14,5 +14,10 @@ function validBraces(braces:string):boolean{
                 return false;
             }
      }
-         return stack.length === 0;
+ return stack.length === 0;
 }
+console.log(validBraces("(){}[]"))
+console.log(validBraces("([{}])"))
+console.log(validBraces("(}"))
+console.log(validBraces("[(])"))
+console.log(validBraces("[({})](]"))
