@@ -6,6 +6,7 @@ export function adjacentElementsProduct(arr: number[]): number {
         hold.push(check);
   }
   hold.pop()
- 
+  let max: number = Math.max(...hold)
+  return max;
 
 }
