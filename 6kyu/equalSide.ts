@@ -3,5 +3,6 @@ const findEvenIndex =(arr:number[])=>{
      let leftSum =0;
     for(let i=0; i<arr.length; i++){
         let rightSum = totalSum - leftSum - arr[i];
+        if(leftSum === rightSum) return i;
     }
 }
