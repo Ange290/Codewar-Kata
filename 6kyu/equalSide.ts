@@ -6,4 +6,5 @@ const findEvenIndex =(arr:number[])=>{
         if(leftSum === rightSum) return i;
         leftSum += arr[i];
     }
+    return -1
 }
