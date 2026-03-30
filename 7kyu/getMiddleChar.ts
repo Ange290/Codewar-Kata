@@ -1,3 +1,3 @@
-const getMiddle = (s) => {
+const getMiddle = (s: string) => {
    
 };
