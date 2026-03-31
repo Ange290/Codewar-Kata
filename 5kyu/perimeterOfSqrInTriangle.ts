@@ -7,5 +7,8 @@ export const perimeter = (n:number):number => {
   
   for(let x =2; x <=n; x++){
   let newSum: number = a + b;
-  }
+     sum +=newSum;
+      a =b;
+      b = newSum;
+
 }
