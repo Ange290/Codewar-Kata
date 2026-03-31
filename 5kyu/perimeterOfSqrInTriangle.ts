@@ -13,3 +13,5 @@ export const perimeter = (n:number):number => {
   }
   return 4*sum
 }
+console.log(perimeter(5));//80
+console.log(perimeter(7));//216
