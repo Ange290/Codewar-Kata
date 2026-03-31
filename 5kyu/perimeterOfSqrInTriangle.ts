@@ -10,5 +10,6 @@ export const perimeter = (n:number):number => {
      sum +=newSum;
       a =b;
       b = newSum;
-
+  }
+  return 4*sum
 }
