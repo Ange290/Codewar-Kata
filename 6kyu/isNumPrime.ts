@@ -1,1 +1,3 @@
-function isPrime(num: any) {}
+function isPrime(num: any) {
+    if (num<=1){}
+}
