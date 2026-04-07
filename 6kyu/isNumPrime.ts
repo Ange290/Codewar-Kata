@@ -1,1 +1,1 @@
-function isPrime(num) {}
+function isPrime(num: any) {}
