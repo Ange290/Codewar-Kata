@@ -7,4 +7,5 @@ function isPrime(num: any) {
             return false;
         }
     }
+    return true;
 }
