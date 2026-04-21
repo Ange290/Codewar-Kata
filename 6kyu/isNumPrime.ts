@@ -9,3 +9,6 @@ function isPrime(num: any) {
     }
     return true;
 }
+console.log(isPrime(1)); // false
+console.log(isPrime(2)); // true
+console.log(isPrime(3));
