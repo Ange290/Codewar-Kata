@@ -1,1 +1,1 @@
-const uniqueInOrder = function(iterable){}
+const uniqueInOrder = function(iterable: any){}
