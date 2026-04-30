@@ -5,5 +5,5 @@ export function countNumber(matrix: number[],num: number): number{
             count++;
         }
     }
-   
+   return count;
 }
