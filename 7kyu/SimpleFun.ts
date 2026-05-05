@@ -12,5 +12,8 @@ function growingPlant(upSpeed: number, downSpeed: number, desiredHeight: number 
     }
 
   
-}
+    result -= downSpeed;
+  }
+
+  return count;
 }
