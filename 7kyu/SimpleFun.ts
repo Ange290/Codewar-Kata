@@ -7,5 +7,10 @@ function growingPlant(upSpeed: number, downSpeed: number, desiredHeight: number 
     result += upSpeed;
     count++;
 
+    if (result >= desiredHeight) {
+      break;
     }
+
+  
+}
 }
