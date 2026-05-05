@@ -4,5 +4,8 @@ function growingPlant(upSpeed: number, downSpeed: number, desiredHeight: number 
   let result = 0;
     while (result < desiredHeight) {
 
+    result += upSpeed;
+    count++;
+
     }
 }
