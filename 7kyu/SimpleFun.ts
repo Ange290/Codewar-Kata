@@ -17,3 +17,6 @@ function growingPlant(upSpeed: number, downSpeed: number, desiredHeight: number 
 
   return count;
 }
+console.log(growingPlant(100, 10, 910))
+console.log(growingPlant(10, 9, 4))
+console.log(growingPlant(5, 2, 10))
