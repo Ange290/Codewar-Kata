@@ -10,5 +10,6 @@ for(let char of s){
   }
 }
 
+  return result
 
 }
