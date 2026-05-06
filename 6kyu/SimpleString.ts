@@ -13,3 +13,6 @@ for(let char of s){
   return result
 
 }
+console.log(stringExpansion('3D2a5d2f'))
+console.log(stringExpansion('3abc'))
+console.log(stringExpansion('0d0a0v0s'))
