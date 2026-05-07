@@ -7,4 +7,5 @@ function numberOfFolds(n:number):number {
       num ++;
       }
 
+return num
 }
