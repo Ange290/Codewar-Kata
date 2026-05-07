@@ -3,7 +3,8 @@ function numberOfFolds(n:number):number {
   let num = 0;
   while(start  < n)
     {
-      
+      start *= 2;
+      num ++;
       }
 
 }
