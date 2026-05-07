@@ -1,3 +1,3 @@
-function numberOfFolds(n) {
+function numberOfFolds(n:number):number {
  
 }
