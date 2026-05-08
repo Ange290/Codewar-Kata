@@ -5,4 +5,5 @@ const uniqueInOrder = function(iterable: any){
             result.push(iterable[i]);
         }
     }
+    return result;
 }
