@@ -1,3 +1,3 @@
-function joinStrings(){
+function joinStrings(string1, string2){
    
 }
