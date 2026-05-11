@@ -7,5 +7,7 @@ function sumFactorial(arr: number[]): number {
     for(let y =2; y <= arr[x]; y++){
          single *= y; 
     }
+      sum += single
   }
+    return sum
 }
