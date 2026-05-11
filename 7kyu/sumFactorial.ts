@@ -4,5 +4,7 @@ function sumFactorial(arr: number[]): number {
      
   for(let x = 0; x < arr.length; x++){
     let single=1;
+    for(let y =2; y <= arr[x]; y++){
+    }
   }
 }
