@@ -11,3 +11,6 @@ function sumFactorial(arr: number[]): number {
   }
     return sum
 }
+console.log(sumFactorial([1, 2, 3]))
+console.log(sumFactorial([4, 5, 6]))
+console.log(sumFactorial([0, 1, 2]))
