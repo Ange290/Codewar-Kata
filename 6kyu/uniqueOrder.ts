@@ -7,3 +7,5 @@ const uniqueInOrder = function(iterable: any){
     }
     return result;
 }
+console.log(uniqueInOrder('AAABBCCDAABB'));
+console.log(uniqueInOrder('111222333666555'));
