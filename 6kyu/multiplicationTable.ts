@@ -10,3 +10,6 @@ function multiplicationTable(size: number): number[][] {
  }
 return table;
 }
+console.log(multiplicationTable(3))
+console.log(multiplicationTable(5))
+console.log(multiplicationTable(1))
