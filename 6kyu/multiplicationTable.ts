@@ -8,5 +8,5 @@ function multiplicationTable(size: number): number[][] {
     }
      table.push(row);
  }
-
+return table;
 }
