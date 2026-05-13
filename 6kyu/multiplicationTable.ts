@@ -6,6 +6,7 @@ function multiplicationTable(size: number): number[][] {
      for(let b=1; b<=size; b++){
       row.push(a*b);
     }
+     table.push(row);
  }
 
 }
