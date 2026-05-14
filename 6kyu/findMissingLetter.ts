@@ -1,5 +1,7 @@
 function findMissingLetter(array: string[]): string {
 
        for (let i = 0; i < array.length - 1; i++) {
+        const currentCode = array[i].charCodeAt(0);
+        const nextCode = array[i + 1].charCodeAt(0);
        }
 }
