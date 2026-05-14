@@ -1,4 +1,4 @@
-function findMissingLetter(array: string[]): string {
+function findMissingLetter(array: string[]): any {
 
        for (let i = 0; i < array.length - 1; i++) {
         const currentCode = array[i].charCodeAt(0);
