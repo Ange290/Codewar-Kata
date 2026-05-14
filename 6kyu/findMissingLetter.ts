@@ -8,4 +8,5 @@ function findMissingLetter(array: string[]): string {
             return String.fromCharCode(currentCode + 1);
         }
        }
+       return null;
 }
