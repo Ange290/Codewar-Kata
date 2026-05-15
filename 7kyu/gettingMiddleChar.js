@@ -5,4 +5,7 @@ function getMiddle(s) {
     if(len % 2 ===0){
     return s[mid -1] + s[mid];
   }
+    else{
+    return s[mid];
+}
 }
