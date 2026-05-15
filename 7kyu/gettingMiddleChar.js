@@ -9,3 +9,7 @@ function getMiddle(s) {
     return s[mid];
 }
 }
+
+  console.log(getMiddle("Ange"));
+  console.log(getMiddle("amaya"));
+  console.log(getMiddle("running"));
