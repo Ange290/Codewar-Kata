@@ -15,3 +15,8 @@ function XO(str) {
     }
       return xCount === oCount
 }
+console.log(XO('xo'))
+console.log(XO('xxOo'))
+console.log(XO('xxxm'))
+console.log(XO('Oo'))
+console.log(XO('ooom'))
