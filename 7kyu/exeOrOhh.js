@@ -6,4 +6,6 @@ function XO(str) {
   for(let char of str){
      if( char === 'x'){
      }
+      xCount++;
+    }
 }
