@@ -13,4 +13,5 @@ function XO(str) {
        oCount++;
        }
     }
+      return xCount === oCount
 }
