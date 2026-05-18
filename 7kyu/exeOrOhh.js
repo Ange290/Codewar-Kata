@@ -5,7 +5,12 @@ function XO(str) {
 
   for(let char of str){
      if( char === 'x'){
-     }
+        
       xCount++;
+     }
+
+       else if(char === 'o'){
+       oCount++;
+       }
     }
 }
