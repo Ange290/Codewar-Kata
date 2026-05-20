@@ -1,0 +1,2 @@
+function twoSum(numbers, target) {
+}
