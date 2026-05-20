@@ -8,4 +8,6 @@ function twoSum(numbers, target) {
         }
     }
     }
+   return indx;
+
 }
